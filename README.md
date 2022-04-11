@@ -1,6 +1,7 @@
 # wrappable-object-js
 WrappableObject: A lightweight and simple library to make javascript wrapable and inheritable.
 
+Code Example:
 ```js
 
 // ote: just a random name
@@ -29,4 +30,5 @@ ote._wrap('test', function(original) {
     }
 })
 
+console.log('@test 1:', ote._('test')())
 ```
